@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="shivam" verbose="1">
+    <listeners>
+        <listener class-name="com.nopcommerce13.customlisteners.CustomListeners"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="Login Test">
+        <classes>
+            <class name="com.nopcommerce13.testsuite.LoginPageTest"/>
+            <class name="com.nopcommerce13.testsuite.ComputerPageTest"/>
+            <class name="com.nopcommerce13.testsuite.ComputerPageTestWithDataProvider"/>
+            <class name="com.nopcommerce13.testsuite.RegisterPageTest"/>
+        </classes>
+    </test>
+</suite>

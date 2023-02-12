@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="18.916">
+  <properties />
+  
+  
+            <testcase name="dataSet1" time="5.447" classname="com.nopcommerce13.testsuite.ComputerPageTestWithDataProvider" />
+                <testcase name="dataSet2" time="7.968" classname="com.nopcommerce13.testsuite.ComputerPageTestWithDataProvider" />
+                <testcase name="dataSet3" time="5.501" classname="com.nopcommerce13.testsuite.ComputerPageTestWithDataProvider" />
+      
+</testsuite>
